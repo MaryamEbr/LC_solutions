@@ -1,8 +1,7 @@
 # https://leetcode.com/problems/lru-cache/solutions/
 
 # this works but i guess it's not fast
-# apparently there's comething caled ordered dict in python that makes this faster
-# or just use python dict since
+# apparently there's comething called ordered dict in python that makes this faster
 class LRUCache(object):
 
     def __init__(self, capacity):
